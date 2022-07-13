@@ -1,26 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
-import * as React from 'react';
-import Button from '@mui/material/Button';
+import React from 'react';
+import './App.css';
+import Login from './components/Login.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Click the button for a surprise!
-        </p>
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-        >
-        </a>
-        <Button variant="contained"
-         href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-         target="_blank"
-         rel="noopener noreferrer"
-         >Click here</Button>
-      </header>
+
+    <Login></Login>
     </div>
   );
 }
